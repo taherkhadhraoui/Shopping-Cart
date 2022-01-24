@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Online store</title>
+  </head>
+  <body>
+    <!-- head section -->
+    <header id="head">
+      
+      <nav>
+        <div class="logo">
+            <img
+              src="https://thumbs.dreamstime.com/b/online-shopping-icon-web-shop-label-sale-logo-store-laptop-sign-white-background-i-vector-artwork-127601829.jpg"
+              alt="logo"
+            />
+        </div>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Infos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- main section -->
+
+    <!-- section 1 -->
+      <section>
+        <div class="logo">
+          <img src="./assets/logos.jpg" />
+        </div>
+      </section>
+
+    <main id="main">
+      <!-- carte items details -->
+      <div class="small-container">
+        <table>
+          <tr>
+            <th>Like items</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>SubTotal</th>
+          </tr>
+
+         <!-- Product 1-->
+
+          <tr id="1st">
+            <td><a href="#" class="heart"></a><i class="fa fa-heart" id="heart1" aria-hidden="true"></i></a></td>
+            <td>
+              <div class="product-info">
+                <div class="product-img">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Oxygen15.04.1-computer-laptop.svg/768px-Oxygen15.04.1-computer-laptop.svg.png"
+                    alt="PC"
+                  />
+                  <button class="remove">Remove</a>
+                </div>
+                <div class="info">
+                  <h3>PC</h3>
+                </div>
+              </div>
+            </td>
+            <td>
+              <button class="plus-button">+</button>
+              <input type="text" value="1" class="qty"/>
+              <button class="minus-button">-</button>
+            </td>
+            <td><span class="price">1000</span>$</td> 
+            <td><span class="total">0</span>$</td>
+          </tr>
+          <tr>
+
+         <!-- Product 2-->
+
+          <tr id="2nd">
+            <td><a href="#" class="heart"></a><i class="fa fa-heart" id="heart2" aria-hidden="true"></i></a></td>
+            <td>
+              <div class="product-info">
+                <div class="product-img">
+                  <img
+                    src="https://www.cdiscount.com/pdt2/8/0/1/1/700x700/auc8848658231801/rw/bo-support-a-mobile-phone-table-bureau-universel-p.jpg"
+                    alt="Phone"
+                  />
+                  <button class="remove2">Remove</a>
+                </div>
+                <div class="info">
+                  <h3>Phone</h3>
+                </div>
+              </div>
+            </td>
+            <td>
+              <button class="plus-button2">+</button>
+              <input type="text" value="1" class="qty2"/>
+              <button class="minus-button2">-</button>
+            </td>
+            <td><span class="price2">300</span>$</td> 
+            <td><span class="total2">0</span>$</td>
+          </tr>
+          <tr>
+
+ <!-- Product 3 -->
+
+            <tr id="3nd">
+              <td><a href="#" class="heart"></a><i class="fa fa-heart" id="heart3" aria-hidden="true"></i></a></td>
+              <td>
+                <div class="product-info">
+                  <div class="product-img">
+                    <img
+                      src="https://www.cdiscount.com/pdt2/3/6/7/1/700x700/len0193386048367/rw/tablette-tactile-lenovo-m10-hd-10-1-hd-ram.jpg"
+                      alt="Tablette"
+                    />
+                    <button class="remove3">Remove</a>
+                  </div>
+                  <div class="info">
+                    <h3>Tablette Tactile</h3>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <button class="plus-button3">+</button>
+                <input type="text" value="1" class="qty3"/>
+                <button class="minus-button3">-</button>
+              </td>
+              <td><span class="price3">100</span>$</td> 
+              <td><span class="total3">0</span>$</td>
+            </tr>
+
+ <!-- Total Price -->
+        </table>
+           <tr>
+            <td>Total_Products</td>
+            <td><span class="text">0</span>$</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="copyright"><p>Copyright 2021- Taher_KHADHRAOUI</p></div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
